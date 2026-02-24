@@ -26,7 +26,7 @@ export default function Home() {
          <button className="m-5 pt-5 pb-5 pl-7 pr-7 bg-black rounded-2xl text-white text-xs font-bold cursor-pointer">BUY NOW</button>
        
       </div>
-        <p>Experience 42dB Adaptive ANC, 45-hour battery life, and AI-clear calls. Get yours delivered in 4-5 working days.</p>
+        <p className="text-center mr-10 ml-10 font-bold">Experience 42dB Adaptive ANC, <span>45-hour battery</span>  life, and AI-clear calls. Get yours delivered in 4-5 working days.</p>
       
     </section>
    </main>

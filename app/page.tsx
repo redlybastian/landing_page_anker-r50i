@@ -30,7 +30,7 @@ export default function Home() {
               <span className="bg-gradient-to-r from-[#1A688F] to-[#F61DEF] bg-clip-text text-transparent">Power</span> Your Sound.
             </h2>
             
-            {/* Desktop Description: Moved closer to the title on big screens */}
+         
             <p className="mt-6 font-bold text-gray-700 max-w-md mx-auto lg:mx-0">
               Experience 42dB Adaptive ANC, 
               <span className="bg-gradient-to-r from-[#1A688F] to-[#F61DEF] bg-clip-text text-transparent ml-1"> 45-hour battery</span> life. 
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Image Block */}
+         
           <div className="flex justify-center lg:w-1/2 mt-10 lg:mt-0">
             <Image 
               src='/Anker-R50i-NC-white_img1-removebg.png'
@@ -56,7 +56,7 @@ export default function Home() {
             />
           </div>
         </section>
-        {/* product description */}
+
         <section>
           <div>
             <h2 className="text-3xl text-center lg:text-5xl font-bold leading-tight"><span  className="text-[#0986FA]">Anker</span> Soundcore <span className="text-[#18A7FF]">R50i NC</span> The Ultimate Wireless Upgrade</h2>
@@ -64,10 +64,10 @@ export default function Home() {
           </div>
           <div className="mt-10 ">
       <div className="mt-10 px-6 max-w-7xl mx-auto">
-  {/* The Grid Container: 1 col on mobile, 2 cols on desktop */}
+  
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
     
-    {/* Card 1 */}
+
     <div className="border-3 border-[#0986FA]  p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Audio & Silence</h4>
       <p className="text-center font-bold text-sm lg:text-base">

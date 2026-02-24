@@ -120,16 +120,20 @@ export default function Home() {
             </h3>
           </div>
           <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 items-center">
-            <div className="w-[90%] md:w-full">
-                  <img src="/ANKER-Soundcore-R50i-NC-ANC-img3.webp" alt="ANKER-Soundcore-R50i-NC-ANC" />
+            <div className="w-[90%] relative h-[300px] lg:h-[450px]">
+                  <Image fill src="/ANKER-Soundcore-R50i-NC-ANC-img3.webp" alt="Anker Soundcore R50i NC noise cancelling technology visualization" />
             </div>
-            <div className="mt-5 w-[90%] md:w-full">
-            <img  src="/ANKER-Soundcore-R50i-NC-Battery-image2.webp" alt="ANKER-Soundcore-R50i-NC-ANC" />
+            <div className="mt-5 relative w-[90%] h-[300px] lg:h-[450px]">
+            <Image  fill src="/ANKER-Soundcore-R50i-NC-Battery-image2.webp" alt="Anker Soundcore R50i NC 45-hour battery life infographic"/>
 
             </div>
           </div>
         </section>
       </main>
+
+      <footer>
+        
+      </footer>
     </>
   );
 }

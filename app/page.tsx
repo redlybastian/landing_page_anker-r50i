@@ -68,7 +68,7 @@ export default function Home() {
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
     
     {/* Card 1 */}
-    <div className="border-3 border-cyan-600 p-7 rounded-2xl hover:border-[#0986FA] transition-colors">
+    <div className="border-3 border-[#0986FA]  p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Audio & Silence</h4>
       <p className="text-center font-bold text-sm lg:text-base">
         Adaptive ANC: Intelligently reduces background noise by up to 42dB.<br/>
@@ -78,7 +78,7 @@ export default function Home() {
     </div>
 
     {/* Card 2 */}
-    <div className="border-3 border-cyan-600  p-7 rounded-2xl hover:border-[#0986FA] transition-colors">
+    <div className="border-3 border-[#0986FA]   p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Power & Endurance</h4>
       <p className="text-center font-bold text-sm lg:text-base">
         Single Charge: Up to 10 hours.<br/>
@@ -88,7 +88,7 @@ export default function Home() {
     </div>
 
     {/* Card 3 */}
-    <div className="border-3 border-cyan-600  p-7 rounded-2xl hover:border-[#0986FA] transition-colors">
+    <div className="border-3 border-[#0986FA]   p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Connectivity & Calls</h4>
       <p className="text-center font-bold text-sm lg:text-base">
         AI-Enhanced Calls: 4-Microphone system.<br/>
@@ -98,7 +98,7 @@ export default function Home() {
     </div>
 
     {/* Card 4 */}
-    <div className="border-3 border-cyan-600  p-7 rounded-2xl hover:border-[#0986FA] transition-colors">
+    <div className="border-3 border-[#0986FA]  p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Build & Durability</h4>
       <p className="text-center font-bold text-sm lg:text-base">
         Water Resistance: IP54 rating.<br/>
@@ -110,10 +110,15 @@ export default function Home() {
   </div>
 </div>
              
-           
+      </div>
 
+        </section>
+        <section>
+          <div>
+            <h3>
+              <span>Premium</span>   <span>Zero</span>
+            </h3>
           </div>
-
         </section>
       </main>
     </>

@@ -24,7 +24,9 @@ export default function Home() {
       </div>
       <div className="flex justify-center mt-5">
          <button className="m-5 pt-5 pb-5 pl-7 pr-7 bg-black rounded-2xl text-white text-xs font-bold cursor-pointer">BUY NOW</button>
+       
       </div>
+        <p>Experience 42dB Adaptive ANC, 45-hour battery life, and AI-clear calls. Get yours delivered in 4-5 working days.</p>
       
     </section>
    </main>

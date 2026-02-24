@@ -114,10 +114,19 @@ export default function Home() {
 
         </section>
         <section>
-          <div>
-            <h3>
-              <span>Premium</span>   <span>Zero</span>
+          <div className="mt-10">
+            <h3 className="text-2xl mt-6 text-center lg:text-4xl font-bold leading-tight">
+              <span className="bg-gradient-to-r from-[#1A688F] to-[#F61DEF] bg-clip-text text-transparent ml-1">Premium</span> Sound.  <span className="text-[#0986FA]">Zero</span><br />Distractions
             </h3>
+          </div>
+          <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 items-center">
+            <div className="w-[90%] md:w-full">
+                  <img src="/ANKER-Soundcore-R50i-NC-ANC-img3.webp" alt="ANKER-Soundcore-R50i-NC-ANC" />
+            </div>
+            <div className="mt-5 w-[90%] md:w-full">
+            <img  src="/ANKER-Soundcore-R50i-NC-Battery-image2.webp" alt="ANKER-Soundcore-R50i-NC-ANC" />
+
+            </div>
           </div>
         </section>
       </main>

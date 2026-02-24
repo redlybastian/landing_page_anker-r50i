@@ -131,7 +131,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer>
+      {/* <footer>
         <div className="mt-10 - rounded-tl-4xl rounded-tr-4xl bg-gradient-to-b from-[#2A73C7] to-[#F5FEFF] py-20 px-6 ">
           <div>
             <h5 className="mb-5 text-2xl font-bold">Add a review</h5>
@@ -179,6 +179,72 @@ export default function Home() {
           </ul>
         </div>
         <p>EARPHONES.LK © 2019-2026 PREMIUM E-COMMERCE SOLUTIONS.</p>
+      </footer> */}
+      <footer className="mt-20 rounded-t-[3rem] bg-gradient-to-b from-[#2A73C7] to-[#F5FEFF] pt-16 pb-10 px-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Top Section: Form + Links */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            
+            {/* Review Form */}
+            <div className="bg-white/20 p-8 rounded-3xl backdrop-blur-sm">
+              <h5 className="text-2xl font-bold text-white mb-2">Add a review</h5>
+              <p className="text-white/80 mb-6">Review now to get a coupon!</p>
+              
+              <form className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <label className="text-white font-medium mb-1">Your review*</label>
+                  <textarea className="p-3 bg-white/90 rounded-xl focus:ring-2 focus:ring-blue-400 outline-none" rows={3}></textarea>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex flex-col">
+                    <label className="text-white font-medium mb-1">Name*</label>
+                    <input className="p-3 bg-white/90 rounded-xl outline-none" type="text" />
+                  </div>
+                  <div className="flex flex-col">
+                    <label className="text-white font-medium mb-1">Email*</label>
+                    <input className="p-3 bg-white/90 rounded-xl outline-none" type="email" />
+                  </div>
+                </div>
+                
+                <button className="mt-2 px-8 py-3 bg-black text-white rounded-xl font-bold self-start hover:bg-gray-800 transition-colors">Submit Review</button>
+              </form>
+            </div>
+
+            {/* Links Grid */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+              <div>
+                <h5 className="text-xl font-bold mb-4">Categories</h5>
+                <ul className="space-y-2 text-sm">
+                  <li className="cursor-pointer hover:underline">Earbuds</li>
+                  <li className="cursor-pointer hover:underline">Neckbands</li>
+                  <li className="cursor-pointer hover:underline">Headphones</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="text-xl font-bold mb-4">Policies</h5>
+                <ul className="space-y-2 text-sm">
+                  <li className="cursor-pointer hover:underline">Terms</li>
+                  <li className="cursor-pointer hover:underline">Privacy</li>
+                  <li className="cursor-pointer hover:underline">Returns</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="text-xl font-bold mb-4">Shortcuts</h5>
+                <ul className="space-y-2 text-sm">
+                  <li className="cursor-pointer hover:underline">Account</li>
+                  <li className="cursor-pointer hover:underline">Shop</li>
+                  <li className="cursor-pointer hover:underline">Cart</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Copyright */}
+          <div className="mt-16 pt-8 border-t border-blue-300 text-center">
+            <p className="text-xs font-medium text-gray-700">EARPHONES.LK © 2019-2026 PREMIUM E-COMMERCE SOLUTIONS.</p>
+          </div>
+        </div>
       </footer>
     </>
   );

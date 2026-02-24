@@ -132,7 +132,53 @@ export default function Home() {
       </main>
 
       <footer>
-        
+        <div className="mt-10 - rounded-tl-4xl rounded-tr-4xl bg-gradient-to-b from-[#2A73C7] to-[#F5FEFF] py-20 px-6 ">
+          <div>
+            <h5 className="mb-5 text-2xl font-bold">Add a review</h5>
+            <p>Review now to get coupon!
+                Your email address will not be published. Required fields are marked *</p>
+          </div>
+          <form className="mt-5" action="">
+            <label htmlFor="text" >Your review*</label>
+            <textarea className="bg-blue-50 hover:bg-blue-100 border-cyan-950 rounded-2xl" cols={50} rows={4} name="review" id="review-1"></textarea>
+            <label htmlFor="text">Name*</label><br />
+            <input className="bg-blue-50 rounded-2xl" type="text" /><br />
+            <label htmlFor="email">Email*</label><br />
+            <input className="bg-blue-100 rounded-2xl" type="email" /><br /><br />
+            <button className="px-10 py-4 bg-black rounded-2xl text-white text-sm font-bold hover:scale-105 transition-transform">Submit</button>
+          </form>
+        </div>
+        <div>
+          <h5 className="text-2xl">Categories</h5>
+          <ul>
+            <li>Earbuds</li>
+            <li>Neckbands</li>
+            <li>Overhead</li>
+            <li>Headphones</li>
+            <li>Earphones</li>
+          </ul>
+        </div>
+         <div>
+          <h5 className="text-2xl">OUR POLICIES</h5>
+          <ul>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Return Policy</li>
+            <li>Warranty Policy</li>
+         
+          </ul>
+        </div>
+         <div>
+          <h5 className="text-2xl">Short Cuts</h5>
+          <ul>
+            <li>My account</li>
+            <li>Checkout</li>
+            <li>Shop</li>
+            <li>Cart</li>
+         
+          </ul>
+        </div>
+        <p>EARPHONES.LK © 2019-2026 PREMIUM E-COMMERCE SOLUTIONS.</p>
       </footer>
     </>
   );

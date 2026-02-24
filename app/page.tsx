@@ -77,7 +77,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Card 2 */}
+
     <div className="border-3 border-[#0986FA]   p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Power & Endurance</h4>
       <p className="text-center font-bold text-sm lg:text-base">
@@ -87,7 +87,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Card 3 */}
+   
     <div className="border-3 border-[#0986FA]   p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Connectivity & Calls</h4>
       <p className="text-center font-bold text-sm lg:text-base">
@@ -97,7 +97,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Card 4 */}
+
     <div className="border-3 border-[#0986FA]  p-7 rounded-2xl hover:border-[#1A688F] transition-colors">
       <h4 className="text-center text-xl mb-4 text-[#0986FA] font-bold">Build & Durability</h4>
       <p className="text-center font-bold text-sm lg:text-base">
